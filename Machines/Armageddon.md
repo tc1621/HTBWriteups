@@ -78,7 +78,7 @@ droopescan scan drupal -u http://10.129.106.237/
 
 Searching for this drupal version using searchsploit there are a couple exploits that come up. 
 
-![Searchsploit](Machines/attachments/armageddon1.png)
+![Searchsploit](attachments/armageddon1.png)
 
 Doing a quick google search turns up this [exploit](https://www.exploit-db.com/exploits/44449) in cases where metasploit is not wanted. Using this exploit we can upload a shell script that executes a reverse shell and run it. All we need to do is use curl to download the script. Then using the exploit which allows for code execution set it as executable and run it. The shell script simply executes a reverse shell by running ```bash shell.sh```.
 
@@ -144,7 +144,7 @@ I found a couple of different links that all helped in figuring out how to escal
 
 This picture shows where I put the install hook files. I am still not sure exactly which file was in the correct location but this file structure worked.
 
-![File List](Machines/attachments/armageddon2.png)
+![File List](attachments/armageddon2.png)
 
 The script that was used to give a root shell saved a SSH public key to the root's ```authorized_keys``` file. Here is a copy of the script that added my SSH public key.
 
