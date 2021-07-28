@@ -125,7 +125,7 @@ Moving '/shell.txt' to '/shell.asp':  succeeded.
 
 Using the ```whoami /all``` command we can see the privileges that we have. 
 
-![whoami privileges](/attachments/granny1.png)
+![whoami privileges](attachments/granny1.png)
 
 Looking over the privileges we notice that we have the ```SeImpersonatePrivilege``` which is what we can use to escalate privileges. One way to escalate our privileges is to use [churrasco.exe](https://github.com/Re4son/Churrasco). This program exploits the privilege and then runs a command that is given. In this case I uploaded a copy of nc to the server and used that to send back a reverse shell. 
 
