@@ -158,8 +158,7 @@ At this point a we upgrade to a meterpreter shell. The easiest way to do this is
 [+] 10.10.10.5 - exploit/windows/local/ms15_004_tswbproxy: The service is running, but could not be validated.   
 [+] 10.10.10.5 - exploit/windows/local/ms15_051_client_copy_image: The target appears to be vulnerable.  
 [+] 10.10.10.5 - exploit/windows/local/ms16_016_webdav: The service is running, but could not be validated.  
-[+] 10.10.10.5 - exploit/windows/local/ms16_032_secondary_logon_handle_privesc: The service is running, but could not be validated  
-.  
+[+] 10.10.10.5 - exploit/windows/local/ms16_032_secondary_logon_handle_privesc: The service is running, but could not be validated.
 [+] 10.10.10.5 - exploit/windows/local/ms16_075_reflection: The target appears to be vulnerable.  
 [+] 10.10.10.5 - exploit/windows/local/ntusermndragover: The target appears to be vulnerable.  
 [+] 10.10.10.5 - exploit/windows/local/ppr_flatten_rec: The target appears to be vulnerable.  
